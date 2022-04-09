@@ -29,14 +29,14 @@ class LoginScreen extends StatelessWidget {
                   style: Helper.getTheme(context).headline6,
                 ),
                 Spacer(),
-                Text('Add your details to login'),
+                Text('Ingresa los datos para login'),
                 Spacer(),
                 CustomTextInput(
-                  hintText: "Your email",
+                  hintText: "Correo electronico",
                 ),
                 Spacer(),
                 CustomTextInput(
-                  hintText: "password",
+                  hintText: "Contraseña",
                 ),
                 Spacer(),
                 SizedBox(
@@ -44,7 +44,7 @@ class LoginScreen extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {},
-                    child: Text("Login"),
+                    child: Text("Iniciar Sesion"),
                   ),
                 ),
                 Spacer(),
@@ -53,12 +53,12 @@ class LoginScreen extends StatelessWidget {
                     Navigator.of(context)
                         .pushReplacementNamed(ForgetPwScreen.routeName);
                   },
-                  child: Text("Forget your password?"),
+                  child: Text("Olvidaste tu contraseña?"),
                 ),
                 Spacer(
                   flex: 2,
                 ),
-                Text("or Login With"),
+                Text("O inicia sesion con:"),
                 Spacer(),
                 SizedBox(
                   height: 50,
@@ -84,7 +84,7 @@ class LoginScreen extends StatelessWidget {
                         SizedBox(
                           width: 30,
                         ),
-                        Text("Login with Facebook")
+                        Text("Inicia con Facebook")
                       ],
                     ),
                   ),
@@ -114,7 +114,7 @@ class LoginScreen extends StatelessWidget {
                         SizedBox(
                           width: 30,
                         ),
-                        Text("Login with Google")
+                        Text("Inicia con Google")
                       ],
                     ),
                   ),
@@ -130,9 +130,9 @@ class LoginScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Don't have an Account?"),
+                      Text("No tienes cuenta?"),
                       Text(
-                        "Sign Up",
+                        "Crear Cuenta",
                         style: TextStyle(
                           color: AppColor.orange,
                           fontWeight: FontWeight.bold,

@@ -27,7 +27,7 @@ class NotificationScreen extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Notifications",
+                        "Notificaciones",
                         style: Helper.getTheme(context).headline5,
                       ),
                     ),
@@ -38,42 +38,21 @@ class NotificationScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               NotiCard(
-                title: "Your order has been picked up",
-                time: "Now",
+                title: "Su pedido ha sido recogido",
+                time: "Ahora",
               ),
               NotiCard(
-                title: "Your order has been delivered",
-                time: "1 h ago",
+                title: "Tu pedido va en camino",
+                time: "10 Minutos Antes",
                 color: AppColor.placeholderBg,
               ),
               NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "3 h ago",
-              ),
-              NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "5 h ago",
-              ),
-              NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "05 Sep 2020",
+                title: "Tu pedido ha sido entregado",
+                time: "30 Minutos Antes",
                 color: AppColor.placeholderBg,
-              ),
-              NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "12 Aug 2020",
-                color: AppColor.placeholderBg,
-              ),
-              NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "20 Jul 2020",
-              ),
-              NotiCard(
-                title: "Lorem ipsum dolor sit amet, consectetur",
-                time: "12 Jul 2020",
               ),
             ],
           )),

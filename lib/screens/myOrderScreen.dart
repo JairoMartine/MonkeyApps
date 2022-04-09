@@ -26,7 +26,7 @@ class MyOrderScreen extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "My Order",
+                        "Orden de Compra",
                         style: Helper.getTheme(context).headline5,
                       ),
                     )
@@ -62,7 +62,7 @@ class MyOrderScreen extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              "King Burgers",
+                              "Burger King JR.",
                               style: Helper.getTheme(context).headline3,
                             ),
                             Row(
@@ -77,17 +77,17 @@ class MyOrderScreen extends StatelessWidget {
                                   width: 5,
                                 ),
                                 Text(
-                                  "4.9",
+                                  "4.7",
                                   style: TextStyle(
                                     color: AppColor.orange,
                                   ),
                                 ),
-                                Text(" (124 ratings)"),
+                                Text(" (190 opiniones)"),
                               ],
                             ),
                             Row(
                               children: [
-                                Text("Burger"),
+                                Text("Hamburguesa"),
                                 Padding(
                                   padding: const EdgeInsets.only(
                                     bottom: 5,
@@ -100,7 +100,7 @@ class MyOrderScreen extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                Text("Western Food"),
+                                Text("Comida EUA"),
                               ],
                             ),
                             Row(
@@ -117,7 +117,7 @@ class MyOrderScreen extends StatelessWidget {
                                 SizedBox(
                                   width: 5,
                                 ),
-                                Text("No 03, 4th Lane, Newyork")
+                                Text("Mandarina 1, Vista Hermosa, SJR")
                               ],
                             )
                           ],
@@ -138,23 +138,23 @@ class MyOrderScreen extends StatelessWidget {
                       children: [
                         BurgerCard(
                           price: "16",
-                          name: "Beef Burger",
+                          name: "Hamburguesa de carne",
                         ),
                         BurgerCard(
                           price: "14",
-                          name: "Classic Burger",
+                          name: "Hamburguesa Clásica",
                         ),
                         BurgerCard(
                           price: "17",
-                          name: "Cheese Chicken Burger",
+                          name: "Hamburguesa De Pollo Con Queso",
                         ),
                         BurgerCard(
                           price: "15",
-                          name: "Chicken Legs Basket",
+                          name: "Cesta De Piernas De Pollo",
                         ),
                         BurgerCard(
                           price: "6",
-                          name: "French Fries Large",
+                          name: "Papas fritas",
                           isLast: true,
                         ),
                       ],
@@ -178,7 +178,7 @@ class MyOrderScreen extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Delivery Instruction",
+                                "Instrucción de entrega",
                                 style: Helper.getTheme(context).headline3,
                               ),
                             ),
@@ -191,7 +191,7 @@ class MyOrderScreen extends StatelessWidget {
                                       color: AppColor.orange,
                                     ),
                                     Text(
-                                      "Add Notes",
+                                      "Agregar notas",
                                       style: TextStyle(
                                         color: AppColor.orange,
                                       ),
@@ -208,7 +208,7 @@ class MyOrderScreen extends StatelessWidget {
                         children: [
                           Expanded(
                             child: Text(
-                              "Sub Total",
+                              "SubTotal",
                               style: Helper.getTheme(context).headline3,
                             ),
                           ),
@@ -227,7 +227,7 @@ class MyOrderScreen extends StatelessWidget {
                         children: [
                           Expanded(
                             child: Text(
-                              "Delivery Cost",
+                              "Costo de envío",
                               style: Helper.getTheme(context).headline3,
                             ),
                           ),
@@ -275,7 +275,7 @@ class MyOrderScreen extends StatelessWidget {
                             Navigator.of(context)
                                 .pushNamed(CheckoutScreen.routeName);
                           },
-                          child: Text("Checkout"),
+                          child: Text("Verificar"),
                         ),
                       ),
                     ],

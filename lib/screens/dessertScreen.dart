@@ -35,7 +35,7 @@ class DessertScreen extends StatelessWidget {
                           child: Row(
                             children: [
                               Text(
-                                "Desserts",
+                                "Postres",
                                 style: Helper.getTheme(context).headline5,
                               ),
                             ],
@@ -51,7 +51,7 @@ class DessertScreen extends StatelessWidget {
                     height: 20,
                   ),
                   SearchBar(
-                    title: "Search Food",
+                    title: "Buscar comida",
                   ),
                   SizedBox(
                     height: 15,
@@ -61,9 +61,9 @@ class DessertScreen extends StatelessWidget {
                       Helper.getAssetName("apple_pie.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "French Apple Pie",
-                    shop: "Minute by tuk tuk",
-                    rating: "4.9",
+                    name: "Pay Francés de Manzana",
+                    shop: "La bilbaina",
+                    rating: "4.3",
                   ),
                   SizedBox(
                     height: 5,
@@ -73,9 +73,9 @@ class DessertScreen extends StatelessWidget {
                       Helper.getAssetName("dessert2.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Dark Chocolate Cake",
-                    shop: "Cakes by Tella",
-                    rating: "4.7",
+                    name: "Pastel de chocolate amargo",
+                    shop: "Pujol",
+                    rating: "4.5",
                   ),
                   SizedBox(
                     height: 5,
@@ -85,9 +85,9 @@ class DessertScreen extends StatelessWidget {
                       Helper.getAssetName("dessert4.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Street Shake",
-                    shop: "Cafe Racer",
-                    rating: "4.9",
+                    name: "Malteada Explosiva",
+                    shop: "Blue Java Coffee",
+                    rating: "4.8",
                   ),
                   SizedBox(
                     height: 5,
@@ -97,8 +97,8 @@ class DessertScreen extends StatelessWidget {
                       Helper.getAssetName("dessert5.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Fudgy Chewy Brownies",
-                    shop: "Minute by tuk tuk",
+                    name: "Brownies con malvavisco",
+                    shop: "Sazon Mexicano SJR",
                     rating: "4.9",
                   ),
                   SizedBox(
@@ -212,7 +212,7 @@ class DessertCard extends StatelessWidget {
                         width: 5,
                       ),
                       Text(
-                        "Desserts",
+                        "Postres",
                         style: TextStyle(color: Colors.white),
                       ),
                     ],

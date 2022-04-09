@@ -18,32 +18,32 @@ class SignUpScreen extends StatelessWidget {
           child: Column(
             children: [
               Text(
-                "Sign Up",
+                "Registro de Usuario",
                 style: Helper.getTheme(context).headline6,
               ),
               Spacer(),
               Text(
-                "Add your details to sign up",
+                "Agrega tus datos para registrarte",
               ),
               Spacer(),
-              CustomTextInput(hintText: "Name"),
+              CustomTextInput(hintText: "Nombre Completo"),
               Spacer(),
               CustomTextInput(hintText: "Email"),
               Spacer(),
-              CustomTextInput(hintText: "Mobile No"),
+              CustomTextInput(hintText: "Teléfono Celular"),
               Spacer(),
-              CustomTextInput(hintText: "Address"),
+              CustomTextInput(hintText: "Dirección"),
               Spacer(),
-              CustomTextInput(hintText: "Password"),
+              CustomTextInput(hintText: "Contraseña"),
               Spacer(),
-              CustomTextInput(hintText: "Confirm Password"),
+              CustomTextInput(hintText: "Confirmar Contraseña"),
               Spacer(),
               SizedBox(
                 height: 50,
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {},
-                  child: Text("Sign Up"),
+                  child: Text("Crear Registro"),
                 ),
               ),
               Spacer(),
@@ -55,9 +55,9 @@ class SignUpScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Already have an Account?"),
+                    Text("¿Ya tienes una cuenta?"),
                     Text(
-                      "Login",
+                      "Iniciar Sesión",
                       style: TextStyle(
                         color: AppColor.orange,
                         fontWeight: FontWeight.bold,

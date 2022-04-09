@@ -21,12 +21,12 @@ class ForgetPwScreen extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  "Reset Password",
+                  "Restablecer Contraseña",
                   style: Helper.getTheme(context).headline6,
                 ),
                 Spacer(),
                 Text(
-                  "Please enter your email to recieve a link to create a new password via email",
+                  "Ingrese su correo electrónico para recibir un enlace para crear una nueva contraseña por correo electrónico",
                   textAlign: TextAlign.center,
                 ),
                 Spacer(flex: 2),
@@ -40,7 +40,7 @@ class ForgetPwScreen extends StatelessWidget {
                       Navigator.of(context)
                           .pushReplacementNamed(SendOTPScreen.routeName);
                     },
-                    child: Text("Send"),
+                    child: Text("Enviar"),
                   ),
                 )
               ],

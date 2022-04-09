@@ -25,7 +25,7 @@ class ChangeAddressScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Change Address",
+                      "Cambiar direccion",
                       style: Helper.getTheme(context).headline5,
                     )
                   ],
@@ -87,7 +87,7 @@ class ChangeAddressScreen extends StatelessWidget {
                         child: Column(
                           children: [
                             Text(
-                              "Your Current Location",
+                              "Su ubicación actual",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
@@ -97,7 +97,7 @@ class ChangeAddressScreen extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              "653 Nostrand Ave., Brooklyn, NY 11216",
+                              "Membrillo 125, Vista Hermosa, SJR, QRO",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 12,
@@ -124,7 +124,7 @@ class ChangeAddressScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                SearchBar(title: "Search Address"),
+                SearchBar(title: "Dirección de búsqueda"),
                 SizedBox(
                   height: 10,
                 ),
@@ -150,7 +150,7 @@ class ChangeAddressScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Text(
-                          "Choose a saved place",
+                          "Elige un lugar guardado",
                           style: TextStyle(
                             color: AppColor.primary,
                           ),

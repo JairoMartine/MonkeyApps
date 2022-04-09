@@ -26,7 +26,7 @@ class MoreScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "More",
+                        "Más detalles",
                         style: Helper.getTheme(context).headline5,
                       ),
                       Image.asset(
@@ -41,7 +41,7 @@ class MoreScreen extends StatelessWidget {
                     image: Image.asset(
                       Helper.getAssetName("income.png", "virtual"),
                     ),
-                    name: "Payment Details",
+                    name: "Metodos de Pago",
                     handler: () {
                       Navigator.of(context).pushNamed(PaymentScreen.routeName);
                     },
@@ -53,7 +53,7 @@ class MoreScreen extends StatelessWidget {
                     image: Image.asset(
                       Helper.getAssetName("shopping_bag.png", "virtual"),
                     ),
-                    name: "My Orders",
+                    name: "Mis Ordenes",
                     handler: () {
                       Navigator.of(context).pushNamed(MyOrderScreen.routeName);
                     },
@@ -65,7 +65,7 @@ class MoreScreen extends StatelessWidget {
                     image: Image.asset(
                       Helper.getAssetName("noti.png", "virtual"),
                     ),
-                    name: "Notifications",
+                    name: "Notificaciones",
                     isNoti: true,
                     handler: () {
                       Navigator.of(context)
@@ -79,7 +79,7 @@ class MoreScreen extends StatelessWidget {
                     image: Image.asset(
                       Helper.getAssetName("mail.png", "virtual"),
                     ),
-                    name: "Inbox",
+                    name: "Mensajes",
                     handler: () {
                       Navigator.of(context).pushNamed(InboxScreen.routeName);
                     },
@@ -91,7 +91,7 @@ class MoreScreen extends StatelessWidget {
                     image: Image.asset(
                       Helper.getAssetName("info.png", "virtual"),
                     ),
-                    name: "About Us",
+                    name: "Acerca de",
                     handler: () {
                       Navigator.of(context).pushNamed(AboutScreen.routeName);
                     },
@@ -209,7 +209,7 @@ class MoreCard extends StatelessWidget {
                   ),
                   child: Center(
                     child: Text(
-                      "15",
+                      "10",
                       style: TextStyle(color: Colors.white),
                     ),
                   ),

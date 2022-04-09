@@ -18,7 +18,7 @@ class SendOTPScreen extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'We have sent you an OTP to your Mobile',
+              'Te hemos enviado el código a tu número',
               style: Helper.getTheme(context).headline6,
               textAlign: TextAlign.center,
             ),
@@ -26,7 +26,7 @@ class SendOTPScreen extends StatelessWidget {
               height: 20,
             ),
             Text(
-              "Please check your mobile number 071*****12 continue to reset your password",
+              "Verifique su número de teléfono móvil 427*****62 continúe para restablecer su contraseña",
               textAlign: TextAlign.center,
             ),
             SizedBox(
@@ -52,16 +52,16 @@ class SendOTPScreen extends StatelessWidget {
                   Navigator.of(context)
                       .pushReplacementNamed(NewPwScreen.routeName);
                 },
-                child: Text("Next"),
+                child: Text("Siguiente"),
               ),
             ),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Didn't Recieve? "),
+                Text("¿No recibió el código? "),
                 Text(
-                  "Click Here",
+                  "Reenviar código",
                   style: TextStyle(
                     color: AppColor.orange,
                     fontWeight: FontWeight.bold,

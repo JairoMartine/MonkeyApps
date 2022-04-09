@@ -24,7 +24,7 @@ class ProfileScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Profile",
+                            "Perfíl",
                             style: Helper.getTheme(context).headline5,
                           ),
                           Image.asset(
@@ -43,7 +43,7 @@ class ProfileScreen extends StatelessWidget {
                               width: 80,
                               child: Image.asset(
                                 Helper.getAssetName(
-                                  "user.jpg",
+                                  "user2.jpg",
                                   "real",
                                 ),
                                 fit: BoxFit.cover,
@@ -75,7 +75,7 @@ class ProfileScreen extends StatelessWidget {
                             width: 5,
                           ),
                           Text(
-                            "Edit Profile",
+                            "Editar Perfil",
                             style: TextStyle(color: AppColor.orange),
                           ),
                         ],
@@ -84,7 +84,7 @@ class ProfileScreen extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        "Hi there Emilia!",
+                        "Hola Juan!",
                         style: Helper.getTheme(context).headline4.copyWith(
                               color: AppColor.primary,
                             ),
@@ -92,49 +92,49 @@ class ProfileScreen extends StatelessWidget {
                       SizedBox(
                         height: 5,
                       ),
-                      Text("Sign Out"),
+                      Text("Cerrar Sesión"),
                       SizedBox(
                         height: 40,
                       ),
                       CustomFormImput(
-                        label: "Name",
-                        value: "Emilia Clarke",
+                        label: "Nombre",
+                        value: "Juan Gomez",
                       ),
                       SizedBox(
                         height: 20,
                       ),
                       CustomFormImput(
                         label: "Email",
-                        value: "emiliaclarke@email.com",
+                        value: "juan@gmail.com",
                       ),
                       SizedBox(
                         height: 20,
                       ),
                       CustomFormImput(
-                        label: "Mobile No",
-                        value: "emiliaclarke@email.com",
+                        label: "Numero teléfono",
+                        value: "juan@email.com",
                       ),
                       SizedBox(
                         height: 20,
                       ),
                       CustomFormImput(
-                        label: "Address",
-                        value: "No 23, 6th Lane, Colombo 03",
+                        label: "Dirección",
+                        value: "Paseo Central 123, San Juan del Río",
                       ),
                       SizedBox(
                         height: 20,
                       ),
                       CustomFormImput(
-                        label: "Password",
-                        value: "Emilia Clarke",
+                        label: "Contraseña",
+                        value: "juan123",
                         isPassword: true,
                       ),
                       SizedBox(
                         height: 20,
                       ),
                       CustomFormImput(
-                        label: "Confirm Password",
-                        value: "Emilia Clarke",
+                        label: "Confirmar Contraseña",
+                        value: "juan123",
                         isPassword: true,
                       ),
                       SizedBox(
@@ -145,7 +145,7 @@ class ProfileScreen extends StatelessWidget {
                         width: double.infinity,
                         child: ElevatedButton(
                           onPressed: () {},
-                          child: Text("Save"),
+                          child: Text("Guardar Información"),
                         ),
                       )
                     ],

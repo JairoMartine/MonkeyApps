@@ -27,7 +27,7 @@ class AboutScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Text(
-                          "About Us",
+                          "Acerca de Nosotros",
                           style: Helper.getTheme(context).headline5,
                         ),
                       ),
@@ -45,11 +45,6 @@ class AboutScreen extends StatelessWidget {
                       SizedBox(
                         height: 20,
                       ),
-                      AboutCard(),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      AboutCard(),
                     ],
                   ),
                 ],
@@ -89,7 +84,7 @@ class AboutCard extends StatelessWidget {
           ),
           Flexible(
             child: Text(
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "En MealMonkey nos dedicamos a brindarles a nuestros clientes un servicio cordial. Valoramos su negocio. Nuestra misión es ofrecer productos y servicios confiables con un enfoque orientado al cliente. Nuestro equipo atento y profesional puede brindar una variedad de servicios para satisfacer sus requisitos.",
               style: TextStyle(
                 color: AppColor.primary,
               ),

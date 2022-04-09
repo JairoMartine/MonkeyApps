@@ -100,7 +100,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                            "Tandoori Chicken Pizza",
+                                            "Pizza estilo italiana",
                                             style: Helper.getTheme(context)
                                                 .headline5,
                                           ),
@@ -164,7 +164,7 @@ class IndividualItem extends StatelessWidget {
                                                     height: 5,
                                                   ),
                                                   Text(
-                                                    "4 Star Ratings",
+                                                    "Ranking 4 favorito",
                                                     style: TextStyle(
                                                       color: AppColor.orange,
                                                       fontSize: 12,
@@ -181,7 +181,7 @@ class IndividualItem extends StatelessWidget {
                                                       height: 20,
                                                     ),
                                                     Text(
-                                                      "Rs. 750",
+                                                      "MXN 750",
                                                       style: TextStyle(
                                                         color: AppColor.primary,
                                                         fontSize: 30,
@@ -189,7 +189,7 @@ class IndividualItem extends StatelessWidget {
                                                             FontWeight.w700,
                                                       ),
                                                     ),
-                                                    Text("/per Portion")
+                                                    Text("/ Por rebanada")
                                                   ],
                                                 ),
                                               )
@@ -200,7 +200,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                            "Description",
+                                            "Descripcion",
                                             style: Helper.getTheme(context)
                                                 .headline4
                                                 .copyWith(
@@ -215,7 +215,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare leo non mollis id cursus. Eu euismod faucibus in leo malesuada"),
+                                              "Si amas lo clásico, esta es tu pizza. Delicioso queso Mozzarella, jamón y tomate al oreganato."),
                                         ),
                                         SizedBox(
                                           height: 20,
@@ -235,7 +235,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                            "Customize your Order",
+                                            "Personaliza tu Orden",
                                             style: Helper.getTheme(context)
                                                 .headline4
                                                 .copyWith(
@@ -266,7 +266,7 @@ class IndividualItem extends StatelessWidget {
                                                 hint: Row(
                                                   children: [
                                                     Text(
-                                                        "-Select the size of portion-"),
+                                                        "-Seleccione el tamaño de la porcion-"),
                                                   ],
                                                 ),
                                                 value: "default",
@@ -274,7 +274,7 @@ class IndividualItem extends StatelessWidget {
                                                 items: [
                                                   DropdownMenuItem(
                                                     child: Text(
-                                                        "-Select the size of portion-"),
+                                                        "-Seleccione el tamaño de la porcion-"),
                                                     value: "default",
                                                   ),
                                                 ],
@@ -311,7 +311,7 @@ class IndividualItem extends StatelessWidget {
                                                 hint: Row(
                                                   children: [
                                                     Text(
-                                                        "-Select the ingredients-"),
+                                                        "-Seleccione los ingredientes-"),
                                                   ],
                                                 ),
                                                 value: "default",
@@ -319,7 +319,7 @@ class IndividualItem extends StatelessWidget {
                                                 items: [
                                                   DropdownMenuItem(
                                                     child: Text(
-                                                        "-Select the ingredients-"),
+                                                        "-Seleccione los ingredientes-"),
                                                     value: "default",
                                                   ),
                                                 ],
@@ -342,7 +342,7 @@ class IndividualItem extends StatelessWidget {
                                           child: Row(
                                             children: [
                                               Text(
-                                                "Number of Portions",
+                                                "Numero de porciones",
                                                 style: Helper.getTheme(context)
                                                     .headline4
                                                     .copyWith(
@@ -480,13 +480,13 @@ class IndividualItem extends StatelessWidget {
                                                               .center,
                                                       children: [
                                                         Text(
-                                                          "Total Price",
+                                                          "Precio total",
                                                         ),
                                                         SizedBox(
                                                           height: 10,
                                                         ),
                                                         Text(
-                                                          "LKR 1500",
+                                                          "MXN 1500",
                                                           style: TextStyle(
                                                             color: AppColor
                                                                 .primary,
@@ -511,7 +511,7 @@ class IndividualItem extends StatelessWidget {
                                                                         "virtual"),
                                                                   ),
                                                                   Text(
-                                                                    "Add to Cart",
+                                                                    "Añadir al carrito",
                                                                   )
                                                                 ],
                                                               )),

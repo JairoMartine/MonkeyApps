@@ -35,7 +35,7 @@ class MenuScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                SearchBar(title: "Search Food"),
+                SearchBar(title: "Buscar comida"),
                 SizedBox(
                   height: 20,
                 ),
@@ -73,8 +73,8 @@ class MenuScreen extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                name: "Food",
-                                count: "120",
+                                name: "Alimentos",
+                                count: "10",
                               ),
                               SizedBox(
                                 height: 20,
@@ -92,8 +92,8 @@ class MenuScreen extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                name: "Beverage",
-                                count: "220",
+                                name: "Bebidas",
+                                count: "20",
                               ),
                               SizedBox(
                                 height: 20,
@@ -116,8 +116,8 @@ class MenuScreen extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                  name: "Desserts",
-                                  count: "135",
+                                  name: "Postres",
+                                  count: "30",
                                 ),
                               ),
                               SizedBox(
@@ -136,8 +136,8 @@ class MenuScreen extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                name: "Promotions",
-                                count: "25",
+                                name: "Promociones",
+                                count: "10",
                               ),
                             ],
                           ),
@@ -217,7 +217,7 @@ class MenuCard extends StatelessWidget {
               SizedBox(
                 height: 5,
               ),
-              Text("$_count items")
+              Text("$_count Registros")
             ],
           ),
         ),

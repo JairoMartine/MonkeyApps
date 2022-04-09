@@ -98,9 +98,9 @@ class CustomNavBar extends StatelessWidget {
                                   Helper.getAssetName("bag.png", "virtual"),
                                 ),
                           offer
-                              ? Text("Offers",
+                              ? Text("Ofertas",
                                   style: TextStyle(color: AppColor.orange))
-                              : Text("Offers"),
+                              : Text("Ofertas"),
                         ],
                       ),
                     ),
@@ -126,9 +126,9 @@ class CustomNavBar extends StatelessWidget {
                                   Helper.getAssetName("user.png", "virtual"),
                                 ),
                           profile
-                              ? Text("Profile",
+                              ? Text("Perfil",
                                   style: TextStyle(color: AppColor.orange))
-                              : Text("Profile"),
+                              : Text("Perfil"),
                         ],
                       ),
                     ),
@@ -151,9 +151,9 @@ class CustomNavBar extends StatelessWidget {
                                   Helper.getAssetName("menu.png", "virtual"),
                                 ),
                           more
-                              ? Text("Profile",
+                              ? Text("Perfil",
                                   style: TextStyle(color: AppColor.orange))
-                              : Text("More"),
+                              : Text("Mas"),
                         ],
                       ),
                     ),

@@ -19,23 +19,23 @@ class NewPwScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Text("New Password", style: Helper.getTheme(context).headline6),
+                Text("Nueva Contraseña", style: Helper.getTheme(context).headline6),
                 SizedBox(
                   height: 20,
                 ),
                 Text(
-                  "Please enter your email to recieve a link to create a new password via email",
+                  "Ingrese la nueva contraseña para su correcto inicio de sesión",
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(
                   height: 30,
                 ),
-                CustomTextInput(hintText: "New Password"),
+                CustomTextInput(hintText: "Nueva Contraseña"),
                 SizedBox(
                   height: 20,
                 ),
                 CustomTextInput(
-                  hintText: "Confirm Password",
+                  hintText: "Confirmar Contraseña",
                 ),
                 SizedBox(
                   height: 20,
@@ -48,7 +48,7 @@ class NewPwScreen extends StatelessWidget {
                       Navigator.of(context)
                           .pushReplacementNamed(IntroScreen.routeName);
                     },
-                    child: Text("Next"),
+                    child: Text("Siguiente"),
                   ),
                 )
               ],

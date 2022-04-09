@@ -58,7 +58,7 @@ class LandingScreen extends StatelessWidget {
                 children: [
                   Flexible(
                     child: Text(
-                      "Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep",
+                      "Descubra los mejores alimentos de más de 1000 restaurantes y entrega rápida en la puerta de su casa",
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -73,7 +73,7 @@ class LandingScreen extends StatelessWidget {
                         Navigator.of(context)
                             .pushReplacementNamed(LoginScreen.routeName);
                       },
-                      child: Text("Login"),
+                      child: Text("Iniciar sesión"),
                     ),
                   ),
                   SizedBox(
@@ -96,7 +96,7 @@ class LandingScreen extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {},
-                      child: Text("Create an Account"),
+                      child: Text("Crear una cuenta"),
                     ),
                   ),
                   Spacer(),

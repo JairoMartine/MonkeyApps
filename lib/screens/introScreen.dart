@@ -16,20 +16,20 @@ class _IntroScreenState extends State<IntroScreen> {
   final List<Map<String, String>> _pages = [
     {
       "image": "vector1.png",
-      "title": "Find Food You Love",
+      "title": "Encuentra la comida que te gusta",
       "desc":
-          "Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep"
+          "Descubra los mejores alimentos de más de 1000 restaurantes y entrega rápida en la puerta de su casa"
     },
     {
       "image": "vector2.png",
-      "title": "Fast Delivery",
-      "desc": "Fast food delivery to your home, office wherever you are"
+      "title": "Entrega rápida",
+      "desc": "Entrega de comida rápida a su casa, oficina donde quiera que esté"
     },
     {
       "image": "vector3.png",
-      "title": "Live Tracking",
+      "title": "Seguimiento en vivo",
       "desc":
-          "Real time tracking of your food on the app once you placed the order"
+          "Seguimiento en tiempo real de su comida en la aplicación una vez que realizó el pedido"
     },
   ];
 
@@ -114,7 +114,7 @@ class _IntroScreenState extends State<IntroScreen> {
                         Navigator.of(context)
                             .pushReplacementNamed(HomeScreen.routeName);
                       },
-                      child: Text("Next")),
+                      child: Text("Siguiente")),
                 ),
                 Spacer()
               ],

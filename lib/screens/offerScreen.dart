@@ -23,7 +23,7 @@ class OfferScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Latest Offers",
+                            "Últimas ofertas",
                             style: Helper.getTheme(context).headline5,
                           ),
                           Image.asset(
@@ -38,7 +38,7 @@ class OfferScreen extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: Row(
-                        children: [Text("Find discounts, Offer special")],
+                        children: [Text("Encuentra descuentos, Oferta especial")],
                       ),
                     ),
                     SizedBox(
@@ -52,7 +52,7 @@ class OfferScreen extends StatelessWidget {
                             height: 30,
                             width: Helper.getScreenWidth(context) * 0.4,
                             child: ElevatedButton(
-                                onPressed: () {}, child: Text("Check Offers")),
+                                onPressed: () {}, child: Text("Consultar ofertas")),
                           ),
                         ],
                       ),
@@ -65,21 +65,21 @@ class OfferScreen extends StatelessWidget {
                         Helper.getAssetName("breakfast.jpg", "real"),
                         fit: BoxFit.cover,
                       ),
-                      name: "Cafe de Noires",
+                      name: "Blue Java Coffee",
                     ),
                     OfferCard(
                       image: Image.asset(
                         Helper.getAssetName("western2.jpg", "real"),
                         fit: BoxFit.cover,
                       ),
-                      name: "Isso",
+                      name: "La bilbaina",
                     ),
                     OfferCard(
                       image: Image.asset(
                         Helper.getAssetName("coffee3.jpg", "real"),
                         fit: BoxFit.cover,
                       ),
-                      name: "Cafe Beans",
+                      name: "Pojul",
                     ),
                     SizedBox(
                       height: 100,
@@ -157,7 +157,7 @@ class OfferCard extends StatelessWidget {
                 SizedBox(
                   width: 5,
                 ),
-                Text("(124 ratings) Cafe"),
+                Text("(100) Comida"),
                 SizedBox(
                   width: 5,
                 ),
@@ -169,7 +169,7 @@ class OfferCard extends StatelessWidget {
                         color: AppColor.orange, fontWeight: FontWeight.bold),
                   ),
                 ),
-                Text(" Western Food"),
+                Text(" Restaurant"),
               ],
             ),
           )

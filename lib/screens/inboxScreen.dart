@@ -25,7 +25,7 @@ class InboxScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Text(
-                          "Inbox",
+                          "Mensajes",
                           style: Helper.getTheme(context).headline5,
                         ),
                       ),
@@ -39,42 +39,23 @@ class InboxScreen extends StatelessWidget {
                   height: 30,
                 ),
                 MailCard(
-                  title: "MealMonkey Promotions",
+                  title: "Promociones",
                   description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
+                      "Aprovecha las promociones que tenemos ",
+                  time: "9 de Abril",
                 ),
                 MailCard(
-                  title: "MealMonkey Promotions",
+                  title: "Buen Fin 2022",
                   description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
+                      "PROXIMAMENTE ",
+                  time: "10 de Abril",
                   color: AppColor.placeholderBg,
                 ),
                 MailCard(
-                  title: "MealMonkey Promotions",
+                  title: "2x1 en Bebidas Frías",
                   description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
-                ),
-                MailCard(
-                  title: "MealMonkey Promotions",
-                  description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
-                  color: AppColor.placeholderBg,
-                ),
-                MailCard(
-                  title: "MealMonkey Promotions",
-                  description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
-                ),
-                MailCard(
-                  title: "MealMonkey Promotions",
-                  description:
-                      "Lorem Ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor ",
-                  time: "6th July",
+                      "En esta temporada de calor aprovecha ",
+                  time: "11 de Abril",
                 ),
               ],
             ),

@@ -29,7 +29,7 @@ class CheckoutScreen extends StatelessWidget {
                     ),
                     Expanded(
                       child: Text(
-                        "Checkout",
+                        "Verificar Orden",
                         style: Helper.getTheme(context).headline5,
                       ),
                     ),
@@ -40,7 +40,7 @@ class CheckoutScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Text("Delivery Address"),
+                  child: Text("Dirección de entrega"),
                 ),
                 SizedBox(
                   height: 10,
@@ -53,7 +53,7 @@ class CheckoutScreen extends StatelessWidget {
                       SizedBox(
                         width: Helper.getScreenWidth(context) * 0.4,
                         child: Text(
-                          "653 Nostrand Ave., Brooklyn, NY 11216",
+                          "Palma 125, Vista Hermosa, SJR, QRO",
                           style: Helper.getTheme(context).headline3,
                         ),
                       ),
@@ -63,7 +63,7 @@ class CheckoutScreen extends StatelessWidget {
                               .pushNamed(ChangeAddressScreen.routeName);
                         },
                         child: Text(
-                          "Change",
+                          "Cambiar",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                           ),
@@ -88,7 +88,7 @@ class CheckoutScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Payment method"),
+                      Text("Método de pago"),
                       TextButton(
                         onPressed: () {
                           showModalBottomSheet(
@@ -123,7 +123,7 @@ class CheckoutScreen extends StatelessWidget {
                                         child: Row(
                                           children: [
                                             Text(
-                                              "Add Credit/Debit Card",
+                                              "Añadir tarjeta de crédito/débito",
                                               style: Helper.getTheme(context)
                                                   .headline3,
                                             )
@@ -144,7 +144,7 @@ class CheckoutScreen extends StatelessWidget {
                                         padding: const EdgeInsets.symmetric(
                                             horizontal: 20.0),
                                         child: CustomTextInput(
-                                            hintText: "card Number"),
+                                            hintText: "Numero de Tarjeta"),
                                       ),
                                       SizedBox(
                                         height: 20,
@@ -156,7 +156,7 @@ class CheckoutScreen extends StatelessWidget {
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text("Expiry"),
+                                            Text("Vencimiento"),
                                             SizedBox(
                                               height: 50,
                                               width: 100,
@@ -183,7 +183,7 @@ class CheckoutScreen extends StatelessWidget {
                                         padding: const EdgeInsets.symmetric(
                                             horizontal: 20.0),
                                         child: CustomTextInput(
-                                            hintText: "Security Code"),
+                                            hintText: "Código de seguridad"),
                                       ),
                                       SizedBox(
                                         height: 20,
@@ -192,7 +192,7 @@ class CheckoutScreen extends StatelessWidget {
                                         padding: const EdgeInsets.symmetric(
                                             horizontal: 20.0),
                                         child: CustomTextInput(
-                                            hintText: "First Name"),
+                                            hintText: "Primer nombre"),
                                       ),
                                       SizedBox(
                                         height: 20,
@@ -201,7 +201,7 @@ class CheckoutScreen extends StatelessWidget {
                                         padding: const EdgeInsets.symmetric(
                                             horizontal: 20.0),
                                         child: CustomTextInput(
-                                            hintText: "Last Name"),
+                                            hintText: "Apellido"),
                                       ),
                                       SizedBox(
                                         height: 20,
@@ -218,7 +218,7 @@ class CheckoutScreen extends StatelessWidget {
                                                       context) *
                                                   0.4,
                                               child: Text(
-                                                  "You can remove this card at anytime"),
+                                                  "Puede eliminar esta tarjeta en cualquier momento"),
                                             ),
                                             Switch(
                                               value: false,
@@ -251,7 +251,7 @@ class CheckoutScreen extends StatelessWidget {
                                                     Icons.add,
                                                   ),
                                                   SizedBox(width: 40),
-                                                  Text("Add Card"),
+                                                  Text("Agregar tarjeta"),
                                                   SizedBox(width: 40),
                                                 ],
                                               )),
@@ -266,7 +266,7 @@ class CheckoutScreen extends StatelessWidget {
                           children: [
                             Icon(Icons.add),
                             Text(
-                              "Add Card",
+                              "Agregar tarjeta",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                               ),
@@ -281,7 +281,7 @@ class CheckoutScreen extends StatelessWidget {
                   widget: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Cash on delivery"),
+                      Text("Pago contra entrega"),
                       Container(
                         width: 15,
                         height: 15,
@@ -315,7 +315,7 @@ class CheckoutScreen extends StatelessWidget {
                           SizedBox(
                             width: 10,
                           ),
-                          Text("**** **** **** 2187"),
+                          Text("**** **** **** 7537"),
                         ],
                       ),
                       Container(
@@ -352,7 +352,7 @@ class CheckoutScreen extends StatelessWidget {
                           SizedBox(
                             width: 10,
                           ),
-                          Text("johndoe@email.com"),
+                          Text("juan@gmail.com"),
                         ],
                       ),
                       Container(
@@ -398,7 +398,7 @@ class CheckoutScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Delivery Cost"),
+                          Text("Costo de envío"),
                           Text(
                             "\$2",
                             style: Helper.getTheme(context).headline3,
@@ -411,7 +411,7 @@ class CheckoutScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Discount"),
+                          Text("Descuento"),
                           Text(
                             "-\$4",
                             style: Helper.getTheme(context).headline3,
@@ -487,7 +487,7 @@ class CheckoutScreen extends StatelessWidget {
                                       height: 20,
                                     ),
                                     Text(
-                                      "Thank You!",
+                                      "Gracias!",
                                       style: TextStyle(
                                         color: AppColor.primary,
                                         fontWeight: FontWeight.w900,
@@ -498,7 +498,7 @@ class CheckoutScreen extends StatelessWidget {
                                       height: 10,
                                     ),
                                     Text(
-                                      "for your order",
+                                      "por su orden",
                                       style: Helper.getTheme(context)
                                           .headline4
                                           .copyWith(color: AppColor.primary),
@@ -510,7 +510,7 @@ class CheckoutScreen extends StatelessWidget {
                                       padding: const EdgeInsets.symmetric(
                                           horizontal: 20.0),
                                       child: Text(
-                                          "Your order is now being processed. We will let you know once the order is picked from the outlet. Check the status of your order"),
+                                          "Su orden esta siendo procesada. Le informaremos una vez que se recoja el pedido del punto de venta. Compruebe el estado de su pedido"),
                                     ),
                                     SizedBox(
                                       height: 60,
@@ -524,7 +524,7 @@ class CheckoutScreen extends StatelessWidget {
                                         width: double.infinity,
                                         child: ElevatedButton(
                                           onPressed: () {},
-                                          child: Text("Track My Order"),
+                                          child: Text("Rastrear mi Orden"),
                                         ),
                                       ),
                                     ),
@@ -539,7 +539,7 @@ class CheckoutScreen extends StatelessWidget {
                                                   HomeScreen.routeName);
                                         },
                                         child: Text(
-                                          "Back To Home",
+                                          "Volver al Inicio",
                                           style: TextStyle(
                                             color: AppColor.primary,
                                             fontWeight: FontWeight.bold,
@@ -552,7 +552,7 @@ class CheckoutScreen extends StatelessWidget {
                               );
                             });
                       },
-                      child: Text("Send Order"),
+                      child: Text("Solicitar Orden"),
                     ),
                   ),
                 )
